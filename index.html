@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./static/CSS/sty.css">
+  <link rel="stylesheet" href="./static/CSS/bootstrap.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <img src="./static/img/logo.png" width="90" height="70" >
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              SHOP
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#product">Shop</a>
+              <a class="dropdown-item" href="#">Wishlist</a>
+              <a class="dropdown-item" href="#offer">Offers Section</a>
+              <a class="dropdown-item" href="#">Cart</a>
+              <a class="dropdown-item" href="#">Checkout</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#customer">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+        <i class="fa fa-shopping-cart" style="font-size: 30px;" aria-hidden="true"></i>
+      </div>
+      <button class="btn ml-4 px-5" id="btn1">Login</button>
+  </nav>
+  </div>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner text-uppercase">
+        <div class="carousel-item active">
+          <img src="./static/img/bg_1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1>We serve fresh foods & Vegitables</h1>
+            <p>we deliver organic foods and vegitables</p>
+            <button class="btn px-3">View Details</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./static/img/bg_2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1>100% fresh and organic foods</h1>
+            <p>we deliver organic foods and vegitables</p>
+            <button class="btn px-3">View Details</button>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- -----------------services------------------------- -->
+  <section class="services"  id="about">
+    <div class="container">
+      <div class="row text-uppercase">
+        <div class="col-lg-3">
+          <div class="logo">
+            <i class="fa fa-truck"></i>
+            <h3 class="heading">Free Shipping</h3>
+            <p>On order over $100</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="logo">
+            <i class="fa fa-shopping-basket" style="background-color: rgb(207, 107, 40);"></i>
+            <h3 class="heading">always fresh</h3>
+            <p>product well package</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="logo">
+            <i class="fa fa-shield" style="background-color: rgb(119, 247, 247);"></i>
+            <h3 class="heading">superior quality</h3>
+            <p>quality products</p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="logo">
+            <i class="fa fa-phone" style="background-color: rgb(250, 131, 51);"></i>
+            <h3 class="heading">support</h3>
+            <p>24/7 support</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- -----------------------vegetables-------------- -->
+   <section class="veg" >
+    <div class="container">
+      <div class="row" >
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="image">
+              <img src="./static/img/category-1.jpg" width="360" height="250">
+              <div class="imgtxt">
+                <h4>Fruits</h4>
+              </div>
+            </div>
+            <div class="image pt-4">
+              <img src="./static/img/category-2.jpg" width="360" height="250">
+              <div class="imgtxt w-50">
+                <h4>Vegitables</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 pr-4">
+          <img src="./static/img/category.jpg" height="559" width="350">
+          <div class="imgtxt1">
+            <h4>Vegitables</h4>
+            <p>Protect the health of every home</p>
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="row">
+            <div class="image">
+              <img src="./static/img/category-3.jpg" width="360" height="250">
+              <div class="imgtxt">
+                <h4>Juice</h4>
+              </div>
+            </div>
+            <div class="image pt-4">
+              <img src="./static/img/category-4.jpg" width="360" height="250">
+              <div class="imgtxt">
+                <h4>Dried</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------------products------------- -->
+  <section class="product" id="product">
+    <div class="container">
+      <div class="heading">
+        <h4>Featured Products</h4>
+        <h3>Our Products</h3>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="items">
+            <img src="./static/img/product-1.jpg" width="200" height="200">
+            <div class="text">
+              <h4>BELL PEPPER</h4>
+            </div>
+            <div class="price">
+              <p> <span class="spn">Rs.100</span> <span class="spn1 pl-2">Rs.70</span></p>
+              <div class="cart">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="items">
+            <img src="./static/img/product-2.jpg" width="200" height="200">
+            <div class="text">
+              <h4>STRAWBERRY</h4>
+            </div>
+            <div class="price">
+              <p><span class="spn">Rs.150</span> <span class="spn1 pl-2">Rs.130</span></p>
+              <div class="cart">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="items">
+            <img src="./static/img/product-3.jpg" width="200" height="200">
+            <div class="text">
+              <h4>GREEN BEANS</h4>
+            </div>
+            <div class="price">
+              <p><span class="spn">Rs.90</span> <span class="spn1 pl-2">Rs.80</span></p>
+              <div class="cart">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="items">
+            <img src="./static/img/product-4.jpg" width="200" height="200">
+            <div class="text">
+              <h4>PURPLE CABBAGE</h4>
+            </div>
+            <div class="price">
+              <p> <span class="spn">Rs.100</span> <span class="spn1 pl-2">Rs.90</span></p>
+              <div class="cart">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="items">
+            <img src="./static/img/product-5.jpg" width="200" height="200">
+            <div class="text">
+              <h4>TOMATOES</h4>
+            </div>
+            <div class="price">
+              <p><span class="spn">Rs.90</span> <span class="spn1 pl-2">Rs.80</span></p>
+              <div class="cart">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="items">
+            <img src="./static/img/product-6.jpg" width="200" height="200">
+            <div class="text">
+              <h4>BROCOLLI</h4>
+            </div>
+            <div class="price">
+              <p><span class="spn">Rs.120</span> <span class="spn1 pl-2">Rs.90</span></p>
+              <div class="cart">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="items">
+            <img src="./static/img/product-7.jpg" width="200" height="200">
+            <div class="text">
+              <h4>CARROTS</h4>
+            </div>
+            <div class="price">
+              <p><span class="spn">Rs.80</span> <span class="spn1 pl-2">Rs.60</span></p>
+              <div class="cart">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="items">
+            <img src="./static/img/product-8.jpg" width="200" height="200">
+            <div class="text">
+              <h4>FRUIT JUICE</h4>
+            </div>
+            <div class="price">
+              <p><span class="spn">Rs.180</span> <span class="spn1 pl-2">Rs.150</span></p>
+              <div class="cart">
+                <a href="#"><i class="fa fa-bars"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a href="#"><i class="fa fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- -----------------------offers----------------- -->
+    <section class="offer" id="offer">
+    <div class="container">
+      <div class="row justify-content-end">
+        <div class="heading-section">
+          <span class="subheading">Best Price For You</span>
+          <h2 class="mb-4">Deal of the day</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+          <a href="#">
+            <h3>Spinach</h3>
+          </a>
+          <span class="price">$10 <a href="#">now $5 only</a></span>
+          <div class="timer d-flex justify-content-around align-item-center text-uppercase">
+            <div class="time">
+              <h4 id="day"></h4>
+              <p>Days</p>
+            </div>
+            <div class="time">
+              <h4 id="hour"></h4>
+              <p>Hours</p>
+            </div>
+            <div class="time">
+              <h4 id="minute"></h4>
+              <p>Minutes</p>
+            </div>
+            <div class="time">
+              <h4 id="second"></h4>
+              <p>Seconds</p>
+            </div>
+            <p id="demo"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- -----------------------cutomer feedback------------- -->
+    <!-- -----------------------cutomer feedback------------- -->
+  <section class="client" id="customer">
+    <div class="container">
+      <div class="headings text-center text-uppercase">
+        <h3>Testimony</h3>
+        <h1 class="font-weight-bold py-4">Our satisfied customer says</h1>
+        <p class="font-size-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+          <br> there live the blind texts. Separated they live in</p>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators color-black">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_1.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>Alex Jain</h3>
+                  <h6>Web Designer</h6>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_2.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>James Gail</h3>
+                  <h6>UI Designer</h6>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_3.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>Nick Gomes</h6>
+                    <h6>Interface Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_1.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>Alex Jain</h3>
+                  <h6>Web Designer</h6>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_2.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>James Gail</h3>
+                  <h6>UI Designer</h6>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_3.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>Nick Gomes</h3>
+                  <h6>Interface Designer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_1.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>Alex Jain</h3>
+                  <h6>Web Designer</h6>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_2.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>James Gail</h3>
+                  <h6>UI Designer</h6>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="box">
+                  <a href="#"><img src="./static/img/person_4.jpg">
+                  </a>
+                  <p>Lorem ipsum dolor sit, amet consectetur
+                    sicing elitObcaecati facere asper vel veritatis fuga quibusdam nulla tempora, quae
+                    quo?</p>
+                  <h3>Nick Gomes</h3>
+                  <h6>Interface Designer</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------------------clients----------------- -->
+  <section class="partners">
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm part">
+          <a href="#">
+            <img src="./static/img/partner-1.png">
+          </a>
+        </div>
+        <div class="col-sm part">
+          <a href="#">
+            <img src="./static/img/partner-2.png">
+          </a>
+        </div>
+        <div class="col-sm part">
+          <a href="#">
+            <img src="./static/img/partner-3.png">
+          </a>
+        </div>
+        <div class="col-sm part">
+          <a href="#">
+            <img src="./static/img/partner-4.png">
+          </a>
+        </div>
+        <div class="col-sm part">
+          <a href="#">
+            <img src="./static/img/partner-5.png">
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+
+   <!-- ----------------newsletter-------------------------------- -->
+    <section class="news">
+    <div class="container">
+      <div class="row py-5">
+        <div class="parts col-lg-6 pt-5">
+          <h3>Subcribe to our Newsletter</h3>
+          <p>Get e-mail updates about our latest shops and special offers</p>
+        </div>
+        <div class="form-group col-lg-6 pt-5">
+          <input type="text" placeholder="Enter email address">
+          <input type="submit" value="Subscribe" id="btn">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -----------------------footer---------------------------------/-- -->
+   <section class="footer" id="contact">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-lg-3 ft1">
+          <h3>Vegfoods</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-instagram"></i></a>
+        </div>
+        <div class="col-lg-3">
+          <h3>Help</h3>
+          <a href="">
+            <li>Shop</li>
+          </a>
+          <a href="">
+            <li>About</li>
+          </a>
+          <a href="">
+            <li>General</li>
+          </a>
+          <a href="">
+            <li>Contact Us</li>
+          </a>
+        </div>
+        <div class="col-lg-3">
+          <h3>Menu</h3>
+          <a href="">
+            <li>Shipping Information</li>
+          </a>
+          <a href="">
+            <li>Returns &amp; Exchange</li>
+          </a>
+          <a href="">
+            <li>Terms &amp; Conditions</li>
+          </a>
+          <a href="">
+            <li>Privacy Policy</li>
+          </a>
+        </div>
+        <div class="col-lg-3 ft2">
+          <h3>Have a Questions ?</h3>
+          <i class="fa fa-map-marker"> <span>203 Fake St. Mountain View New Delhi, India</span></i>
+          <i class="fa fa-phone">
+            <span> +2 392 3929 210
+            </span>
+          </i>
+          <i class="fa fa-envelope">
+            <span> info@yourdomain.com</span>
+          </i>
+        </div>
+      </div>
+      <div class="footer-heading mt-4 text-center">
+        <p>Copyright ©2020 All rights reserved | This template is made with
+          <i class="fa fa-heart" aria-hidden="true"></i> by <span style="color: rgb(27, 189, 27);">Om Gupta</span></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="./static/JS/jquery.js"></script>
+  <script src="./static/JS/bootstrap.min.js"></script>
+  <script>
+    var deadline = new Date("aug 30, 2021 23:42:00").getTime();
+
+    var x = setInterval(function () {
+
+      var now = new Date().getTime();
+      var t = deadline - now;
+      var days = Math.floor(t / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((t % (1000 * 60)) / 1000);
+      document.getElementById("day").innerHTML = days;
+      document.getElementById("hour").innerHTML = hours;
+      document.getElementById("minute").innerHTML = minutes;
+      document.getElementById("second").innerHTML = seconds;
+      if (t < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "TIME UP";
+        document.getElementById("day").innerHTML = '0';
+        document.getElementById("hour").innerHTML = '0';
+        document.getElementById("minute").innerHTML = '0';
+        document.getElementById("second").innerHTML = '0';
+      }
+    }, 1000); 
+  </script>
+</body>
+
+</html>

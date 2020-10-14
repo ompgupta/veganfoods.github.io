@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+color:rgb(9, 207, 9) !important
+}
+.dropdown-item:hover{
+    background-color:rgb(9, 207, 9) !important;
+    color:white !important;
+}
+#btn1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(9, 207, 9);
+    font-weight: bold;
+    border-radius:10px;
+}
+#btn1:hover{
+    background-color: white;
+    color: rgb(9, 207, 9);
+    border: 1.5px solid rgb(9, 207, 9);
+}
+.carousel-caption{
+/* background-color: blue; */
+position: absolute;
+top:300px;
+
+}
+.carousel-caption h1{
+    font-size: 38px;
+    line-height: 4.5rem;
+    font-family:Comic Sans MS;
+    font-weight:400;
+}
+.carousel-caption .btn{
+    background-color: rgb(146, 216, 81);
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    line-height: 1.7rem;
+}
+.carousel-caption .btn:hover{
+    color:rgb(146, 216, 81);
+    border: 1.2px solid rgb(146, 216, 81);
+    background: transparent;
+}
+
+
+/* ------------------services----------- */
+.services{
+  position: relative;
+  top:150px;
+  height: auto;
+}
+.logo i{
+    background-color: rgb(228, 83, 228);
+    font-size: 38px;
+    border-radius: 50%;
+    width: 40%;
+    padding:30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    transition: 0.5s;
+    margin-left: 30%;
+}
+ .logo i:hover{
+    background-color: rgb(146, 216, 81) !important;
+}
+.logo h3{
+    font-size:20px;
+    line-height: 1.9;
+    padding-top: 7px;
+}
+.logo p{
+    text-align: center;
+}
+/* <!-- -----------------------vegetables-------------- --> */
+.veg{
+    width:100%;
+    height: auto;
+    position: relative;
+    top:350px;
+}
+.imgtxt{
+  background-color:  rgb(146, 216, 81);
+  color:white;
+  width:20%;
+  text-align:center;
+  position: relative;
+  bottom: 28px;
+}
+.imgtxt1{
+    position: absolute;
+    top:20px;
+    left: 90px;
+    text-align: center;
+}
+.imgtxt1 h4{
+    color:rgb(146, 216, 81);
+    line-height: 1.6;
+    font-family: cursive;
+font-size: 29px;
+}
+.imgtxt1 .btn{
+    background-color: rgb(146, 216, 81);
+    color: white;
+    border-radius: 20px;
+}
+.imgtxt1 .btn:hover{
+    background: transparent;
+    border: 1.2px solid rgb(146, 216, 81);
+    color: rgb(146, 216, 81);
+}
+
+/* --------------------products------------- */
+.product{
+    width: 100%;
+    height: auto;
+    position: relative;
+top:500px;
+}
+.heading{
+    text-align: center;
+}
+.heading h4{
+    color: rgb(146, 216, 81);
+    font-size: 23px;
+font-family: cursive;
+line-height: 0.9;
+}
+.heading h3{
+    line-height: 2;
+    font-size: 40px;
+    font-weight: 600;
+}
+.heading p{
+    line-height: 1.9;
+    font-size:17px;
+    font-weight: 600;
+    color: gray;
+}
+.items{
+    border: 1px solid rgba(0, 0, 0, 0.199);
+  padding: 20px 0 20px 20px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  top: 20px;
+}
+.items img{
+    transition: all 0.5s ease;
+}
+.items:hover img{
+    transform: scale(1.2);
+    overflow: hidden;
+}
+.text h4{
+font-size: 15px;
+font-weight: 550;
+line-height: 1.5;
+padding-top: 15px;
+}
+.spn{
+    color:rgb(109, 109, 109);
+    font-weight: 500;
+    text-decoration-line:line-through;
+}
+.spn1{
+color:rgb(111, 228, 1);
+font-weight: 600;
+text-decoration-line: none;
+}
+.cart{
+    position: absolute;
+bottom:0px;
+top:5px;
+    left: 50px;
+}
+.cart i{
+    padding-left: 9px;
+    font-size: 15px;
+    border-radius: 50%;
+    background-color:rgb(38, 207, 4);
+    width: 40px;
+    height: 40px;
+    visibility: hidden;
+    color: white;
+}
+.cart i::before{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:12px 7px 0 0;
+    
+}
+.items:hover .cart i{
+    visibility: visible;
+
+}
+.items:hover .price span{
+    visibility: hidden;
+}
+.items:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.418);
+    transform: translateY(-5px);
+}
+
+/* ----------------offers-------- */
+ .offer{
+    position: relative;
+    top: 600px;
+background-image: url(../img/bg_3.jpg);
+background-size: cover;
+height: 85vh;
+}
+.heading-section{
+    position: relative;
+    top:130px;
+    left: 20px;
+    text-align: left;
+}
+.subheading{
+    color: rgb(6, 134, 6);
+    font-size:20px;
+    font-family: cursive;
+    line-height: 3.3;
+    font-weight: 600;
+}
+.heading-section h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.price{
+    font-weight: 600;
+    color: gray;
+    font-size: 20px;
+    position: relative;
+}
+.heading-section h3{
+    color: rgb(6, 134, 6);
+    font-family: cursive;
+    font-size: 35px;
+}
+.price a{
+    color: rgba(6, 134, 6);
+}
+.heading-section a:hover{
+    text-decoration: none;  
+    color: rgba(46, 219, 46, 0.842);
+}
+.clockdiv{
+    width:10%;
+}
+.timer{
+    position: relative;
+    top:20px;
+    right: 25px;
+}
+.time{
+    border:1px solid rgb(0, 145, 43);
+    margin-left:px;
+    width: 15% ;
+    height: 10vh;
+    text-align: center;
+}
+.time h4{
+    padding-top: 8px;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(51, 134, 48);
+} 
+
+/* --------------------feedback---------- */
+.headings h3{
+color:rgb(23, 158, 23);
+font-size: 20px;
+font-family: cursive;
+}
+.client{
+    position: relative;
+top:720px;
+}
+.headings p{
+    font-size: 13px;
+    padding: 10px 0 100px 0;
+    text-align: center;
+}
+.box p{
+    border-left:1px solid rgb(173, 173, 173);
+    line-height: 1.7;
+    position: relative;
+    top:50px;
+}
+.box p:before{
+    content:'';
+    border-left:4px solid rgb(23, 158, 23);
+position: absolute;
+height: 40px;
+width: 5px;
+ left:-3px;
+ border-radius: 50px;
+top:19px;
+}
+.box img{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+}
+.box h3{
+   padding-top: 100px;
+   font-weight: 600;
+
+}
+.carousel-indicators li{ 
+    background-color: rgb(23, 206, 17) !important;
+    position: relative;
+    top:100px;
+width:12px !important;
+height: 12px !important;
+border-radius: 50%;
+}
+
+/* ---------------------clients------------------------- */
+.partners{
+    height: auto;
+    position: relative;
+    top:950px;
+}
+.part{
+   padding: 80px 0;   
+}
+.part img{
+  height: 60px;
+}
+
+/* <!-- ----------------newsletter-------------------------------- --> */
+.news{
+    position: relative;
+    top:935px;
+    width: 100%;
+    background-color: rgba(223, 223, 223, 0.301);
+    background-size: cover;
+}
+.form-group input{
+   height: 50px;
+   width:350px;
+   border: none;
+}
+.form-group #btn{
+    width: 80px;
+    position: absolute;
+    background-color:rgb(8, 197, 8);
+    color: white;
+    outline: 0;
+}
+.parts p{
+    color: gray;
+    font-weight: 600;
+    padding: 3px 0;
+}
+
+/* -----------------------footer----------------------------------- */
+.footer{
+    position: relative;
+    top:950px;
+    height: 80vh;
+}
+.footer h3{
+    padding-top: 50px;
+    line-height: 2.5;
+    font-size: 23px;
+}
+.footer a{
+    list-style: none;
+    color: #000;
+    line-height: 2.7;
+}
+.footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+.ft1 i{
+    font-size: 30px;
+    background-color: rgba(218, 218, 218, 0.637);
+    width: 18%;
+    height: 18%;
+    border-radius: 50%;
+    padding: 13px 0px 15px 10px;
+    margin:30px 0 0 15px;
+ 
+}
+.ft2 i{
+font-size: 25px;
+padding: 10px 0;
+}
+.ft2 span{
+    font-size:17px;
+    padding-left: 13px;
+}
+/* .footer-heading{
+    position: relative;
+    top:80px;
+    text-align: center;
+} */
+
+/* ****************media query********************* */
+@media (max-width:767px){
+    .navbar{
+        overflow: hidden;
+    }
+    .carousel-caption h1{
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+    .carousel-caption p{
+        font-size: 11px;
+    }
+
+    .carousel-caption{
+        top:90px;
+    }
+    .carousel-caption .btn{
+        line-height: 1.2rem;
+    }
+        .logo i{
+            background-color: rgb(171, 241, 7);
+        }
+        .cart{
+            left: 95px;
+        }
+         .time h4{
+             color: rgb(7, 94, 7);
+         }
+        .time{
+            width: 20% ;
+    height: 8vh;
+        }
+        .part{
+            padding: 20px 0;   
+         }
+        .part img{
+            height: 90px;
+          }
+          .form-group input{
+            height: 50px;
+            width:250px;
+            border: none;
+         }
+         .form-group #btn{
+             width:75px;
+         }
+         .ft1 i{
+            padding: 13px 0px 39px 18px;
+            margin:30px 0 0 15px;
+         
+        }
+    }
